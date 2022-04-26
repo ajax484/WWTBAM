@@ -315,7 +315,7 @@ class Quiz {
                     setTimeout(() => {
                         loadingTl.pause();
                         tl.play();
-                    }, 5000);
+                    }, 1500);
                     this.questionIndex = 0;
                     this.score = 0;
                     this.displayQuestion();
